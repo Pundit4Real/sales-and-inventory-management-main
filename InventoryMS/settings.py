@@ -125,6 +125,8 @@ LOGOUT_URL = 'logout'
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')
 ]
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
 MEDIA_URL = '/images/'
 
